@@ -20,7 +20,7 @@ app.use(function(req, res, next) {
 
 
 //https://www.mongodb.com/cloud/atlas
-const CONNECTION_URL = "mongodb+srv://yashjain:yashjain@cluster0.5b8f5.mongodb.net/?retryWrites=true&w=majority";
+const CONNECTION_URL = "(YOUR MONGODB ATLAS DATABASE URL)";
 const PORT = process.env.PORT || 5000;
 
 try {
